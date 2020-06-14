@@ -1,0 +1,16 @@
+html {
+  --bg: #f3f5f9;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --text-color: #3d556b;
+  --brand-color: rgb(66, 29, 202);
+}
+
+html,
+body {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: background 0.3s ease;
+}
